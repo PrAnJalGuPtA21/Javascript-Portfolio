@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio Website</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+</head>
+
+<body>
+  <div class="container">
+    <header class="flex">
+      <div class="logo">Portfolio<span>.</span></div>
+      <nav>
+        <ul class="flex">
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Service</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+        <div id="search" class="flex">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" name="" id="" placeholder="Search..." />
+        </div>
+      </nav>
+    </header>
+
+    <div class="main flex">
+      <div class="main-one">
+        <h1>Hi ! I am</h1>
+        <span class="auto">Pranjal Gupta</span>
+        <br>
+        <p>
+        Looking forward to an entry-level position to kickstart my career. I am adaptable and a quick learner. Highly motivated and passionate individual capable of efficient time management and working under pressure in all environments 
+        </p>
+        <button>Hire Me</button>
+      </div>
+      <div class="main-two">
+        <img src="./boy.jpg" alt="" />
+      </div>
+    </div>
+
+    <section class="projects" id="project">
+      <h1>My Awesome <br /><span>Projects</span></h1>
+      <p>
+        Here are my some of the awesome projects which are created by me . And here is my Resume which can be seen
+        from here :)
+      </p>
+      <a href="Resume.pdf">
+      <button class="button">My Resume</button>
+      </a>
+      <div class="projects-div flex div-1">
+        <img src="./movie.jpg" alt="" />
+        <h3>Movie Website</h3>
+        <p>
+          This project is all about the movie website where user can sort the movies according to the genres.
+        </p>
+        <a href="https://moviesite-ten.vercel.app/">
+        <button>Live Preview</button>
+      </a>
+      </div>
+      <div class="projects-div flex div-2">
+        <img src="./weather.jpg" alt="" />
+        <h3>Weather App</h3>
+        <p>
+          This is the weather app which tell us the weather of the upcoming days ..
+        </p>
+        <a href="https://weather-app-sooty-alpha.vercel.app/">
+        <button>Live Preview</button>
+      </a>
+      </div>
+      <div class="projects-div flex div-3">
+        <img src="./fast-food.jpg" alt="" />
+        <h3>Grocery Mart</h3>
+        <p>
+          Project which is designed to sell the daily need groceries to the people..
+        </p>
+        <button>Live Preview</button>
+      </div>
+    </section>
+    <br /><br />
+
+    <section class="about flex" id="about">
+      <div class="about-one">
+        <h1>About me</h1>
+        <span>Pranjal Gupta</span>
+        <p>
+          I'm Pranjal Gupta,Looking for a great oppurtunity to showcase my skills . Learning new skills is the thing which I loves the most .. 
+          Moreover I am flexible for the work which are assigned to me . 
+        </p>
+        <div class="btns">
+          <a href="Resume.pdf">
+          <button>Download Resume</button>
+        </a>
+        <a href="#contact">
+          <button>Contact Me</button>
+        </a>
+        </div>
+      </div>
+      <div class="about-two">
+        <img src="./Images/About/1.png" alt="" />
+      </div>
+    </section>
+    <br /><br /><br />
+
+    <section class="contact" id="contact">
+      <h1>Let Us <span>Talk!</span></h1>
+      <div class="box flex">
+        <div>
+          <i class="fa-solid fa-user"></i>
+          <input type="text" placeholder="Name.." />
+        </div>
+        <div>
+          <i class="fa-solid fa-envelope"></i>
+          <input type="email" placeholder="Email.." />
+        </div>
+        <textarea name="" id="" cols="60" rows="5" placeholder="Enter your Message here...."></textarea>
+        <div>
+          <input type="submit" class="send" value="Send" />
+        </div>
+      </div>
+    </section>
+    <footer class="flex" id="footer">
+      <div class="copy">@copywrite 2026 Port.</div>
+      <div class="social">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-solid fa-phone"></i>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed(".auto", {
+      strings: ["Pranjal Gupta", "Web Developer"],
+      typeSpeed: 60,
+      backSpeed: 70,
+      loop: true,
+    });
+  </script>
+</body>
+
+</html>
